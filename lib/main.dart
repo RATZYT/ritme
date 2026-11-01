@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
-const _supabaseUrl = String.fromEnvironment('https://azvsfmfcpxiakeydubte.supabase.co');
-const _supabaseKey = String.fromEnvironment('sb_publishable_8Bxf_FwGk9uEJWLgOHRbxw_PyKlo6uU');
+const _supabaseUrl = String.fromEnvironment('SUPABASE_URL');
+const _supabaseKey = String.fromEnvironment('SUPABASE_PUBLISHABLE_KEY');
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
